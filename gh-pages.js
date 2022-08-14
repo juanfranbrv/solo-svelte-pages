@@ -3,7 +3,7 @@ var ghpages = require('gh-pages');
 ghpages.publish(
   'dist', // path to de la version compilada
   {
-    branch: 'master',
+    branch: 'gh-pges',
     repo: 'https://github.com/juanfranbrv/solo-svelte-pages.git', // Update to point to your repository
     user: {
       name: 'Juanfran', // update to use your name
